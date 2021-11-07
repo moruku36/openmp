@@ -1,7 +1,7 @@
 ### OpenMP | Introduction with Installation Guide
 https://www.geeksforgeeks.org/openmp-introduction-with-installation-guide/
 
-### Comands
+### Commands
 export OMP_NUM_THREADS=8
 
 Compile: 
