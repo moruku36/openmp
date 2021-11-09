@@ -10,7 +10,7 @@ gcc geeksforgeeks.c -o gfg
 Execute:
 ./gfg
 
-### VLIW Quiz
+### VLIW Quiz (これまだ)
 次の命令列を3演算器を持つVLIWシステムに最適化したい．命令列を最適となるように並び替えよ．
 また，同時実行される命令の組み合わせを示せ．条件分岐命令も一つの命令である．但し，トレースはif文を満たす命令列であると仮定する．命令列は先頭から開始される．
 
@@ -25,12 +25,15 @@ m61; m62; m63;
 ### CPU/System Quiz
 次のCPU/システムの理論演算性能(標準)を計算せよ．計算の根拠も示せ．マルチスレッドは無視して良い．
 
-a) CPU単体 Intel Prescott3.2GHz
+a) CPU単体 Intel Prescott 3.2GHz
+　　2 FLOPS/Clock × 3.2GHz × 1コア = 6.2GFLOPS
 
 b) Intel Core2Duo E6400
+   4 FLOPS/Clock × 2.13GHz × 2コア = 17.04GFLOPS
 
 c) AMD EPYC 7H12
-
+   16 FLOPS/Clock× 2.6GHz × 64コア = 2662.4FFLOPS
+ 
 ### Parallel Quiz
 lmpcc にloginし，行列の乗算と行列式を求めるプログラム (/home/lecture/is/i416/MMMUL.c )を並列化せよ．
 
