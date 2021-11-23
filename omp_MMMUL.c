@@ -2,6 +2,7 @@
 #include <omp.h>
 #endif
 #include <stdio.h>
+#include <stdlib.h>
 #define N 1024
 
 void main(){

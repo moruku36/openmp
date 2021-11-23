@@ -1,0 +1,69 @@
+ Number of Particles =    10000000
+ Particle Diameter =   9.9999999999999995E-008
+ Particle Half Diameter =   4.9999999999999998E-008
+ Time Step =   1.0000000000000000E-003
+ Particle weight =    1.0000000000000000E-002
+ imax_num_mesh =    10000001
+ d_mesh_dist =   9.9999999999999995E-008
+ d_max_velocity =   9.9999999999999991E-005
+           1 Time Step =   1.0000000000000000E-003
+    Execution Time [sec.] =  0.31434295199869666      , Number of Collisions =     5987602
+           2 Time Step =   2.0000000000000000E-003
+    Execution Time [sec.] =  0.41439198900116025      , Number of Collisions =     7633493
+           3 Time Step =   3.0000000000000001E-003
+    Execution Time [sec.] =  0.43921456099997158      , Number of Collisions =     8409685
+           4 Time Step =   4.0000000000000001E-003
+    Execution Time [sec.] =  0.44449162299861200      , Number of Collisions =     8835279
+           5 Time Step =   5.0000000000000001E-003
+    Execution Time [sec.] =  0.44290189100138377      , Number of Collisions =     9122892
+           6 Time Step =   6.0000000000000001E-003
+    Execution Time [sec.] =  0.44202719500026433      , Number of Collisions =     9346452
+           7 Time Step =   7.0000000000000001E-003
+    Execution Time [sec.] =  0.44696707700131810      , Number of Collisions =     9457992
+           8 Time Step =   8.0000000000000002E-003
+    Execution Time [sec.] =  0.44671580500289565      , Number of Collisions =     9608799
+           9 Time Step =   9.0000000000000011E-003
+    Execution Time [sec.] =  0.45435428000200773      , Number of Collisions =     9709427
+          10 Time Step =   1.0000000000000000E-002
+    Execution Time [sec.] =  0.44395525000072666      , Number of Collisions =     9811077
+          11 Time Step =   1.0999999999999999E-002
+    Execution Time [sec.] =  0.44704272400122136      , Number of Collisions =     9879339
+          12 Time Step =   1.2000000000000000E-002
+    Execution Time [sec.] =  0.44429433300319943      , Number of Collisions =     9965988
+          13 Time Step =   1.3000000000000001E-002
+    Execution Time [sec.] =  0.44175805800114176      , Number of Collisions =    10019202
+          14 Time Step =   1.4000000000000000E-002
+    Execution Time [sec.] =  0.44134066699916730      , Number of Collisions =    10080286
+          15 Time Step =   1.4999999999999999E-002
+    Execution Time [sec.] =  0.44874953899852699      , Number of Collisions =    10128819
+          16 Time Step =   1.6000000000000000E-002
+    Execution Time [sec.] =  0.44322006499714917      , Number of Collisions =    10191469
+          17 Time Step =   1.7000000000000001E-002
+    Execution Time [sec.] =  0.44412669200028176      , Number of Collisions =    10233934
+          18 Time Step =   1.8000000000000002E-002
+    Execution Time [sec.] =  0.44397121600195533      , Number of Collisions =    10283176
+          19 Time Step =   1.9000000000000000E-002
+    Execution Time [sec.] =  0.44492003800041857      , Number of Collisions =    10325619
+          20 Time Step =   2.0000000000000000E-002
+    Execution Time [sec.] =  0.45266114900005050      , Number of Collisions =    10372280
+          21 Time Step =   2.1000000000000001E-002
+    Execution Time [sec.] =  0.44589318900034414      , Number of Collisions =    10421617
+          22 Time Step =   2.1999999999999999E-002
+    Execution Time [sec.] =  0.44402063400048064      , Number of Collisions =    10459202
+          23 Time Step =   2.3000000000000000E-002
+    Execution Time [sec.] =  0.44401341199773015      , Number of Collisions =    10499618
+          24 Time Step =   2.4000000000000000E-002
+    Execution Time [sec.] =  0.44287718100167695      , Number of Collisions =    10542420
+          25 Time Step =   2.5000000000000001E-002
+    Execution Time [sec.] =  0.44214579800245701      , Number of Collisions =    10584058
+          26 Time Step =   2.6000000000000002E-002
+    Execution Time [sec.] =  0.45427825300066615      , Number of Collisions =    10626302
+          27 Time Step =   2.7000000000000000E-002
+    Execution Time [sec.] =  0.44881606300259591      , Number of Collisions =    10664827
+          28 Time Step =   2.8000000000000001E-002
+    Execution Time [sec.] =  0.44840703600129928      , Number of Collisions =    10707353
+          29 Time Step =   2.9000000000000001E-002
+    Execution Time [sec.] =  0.44428406899896800      , Number of Collisions =    10748236
+          30 Time Step =   2.9999999999999999E-002
+    Execution Time [sec.] =  0.44338656499894569      , Number of Collisions =    10790805
+ Total execution time [sec.] =    13.200729483000032     
