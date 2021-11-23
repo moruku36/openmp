@@ -2,10 +2,9 @@
 #include <omp.h>
 #endif
 #include <stdio.h>
-#include <stdlib.h>
 #define N 1024
 
-void main(){
+int main(){
   int i, j, k, NumT, MyID;
   double t, x[N][N], y[N][N], z[N][N];
 

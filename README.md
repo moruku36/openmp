@@ -10,7 +10,7 @@ gcc geeksforgeeks.c -o gfg
 Execute:
 ./gfg
 
-### VLIW Quiz (これまだ)
+### VLIW Quiz 
 次の命令列を3演算器を持つVLIWシステムに最適化したい．命令列を最適となるように並び替えよ．
 また，同時実行される命令の組み合わせを示せ．条件分岐命令も一つの命令である．但し，トレースはif文を満たす命令列であると仮定する．命令列は先頭から開始される．
 
@@ -22,7 +22,9 @@ if( m34 ){ m41; m42; m43; }
 else{ m51; m52; m53; m54; }
 m61; m62; m63;
 
-### CPU/System Quiz
+
+
+### CPU/System Quiz (これは終わってる)
 次のCPU/システムの理論演算性能(標準)を計算せよ．計算の根拠も示せ．マルチスレッドは無視して良い．
 
 a) CPU単体 Intel Prescott 3.2GHz
@@ -34,9 +36,9 @@ b) Intel Core2Duo E6400
 c) AMD EPYC 7H12
    16 FLOPS/Clock× 2.6GHz × 64コア = 2662.4FFLOPS
  
+
 ### Parallel Quiz
 lmpcc にloginし，行列の乗算と行列式を求めるプログラム (/home/lecture/is/i416/MMMUL.c )を並列化せよ．
-
 
 a) 並列化版を完成し，行列乗算部分の実行時間を確認せよ．並列度(実行ノード数)を変化させ，並列度に対する実行時間(あるいは高速化率)をグラフに示してレポートに添付せよ．
 
@@ -51,7 +53,7 @@ e) プログラムの並列化のポイント，および測定結果とその�
 
 ### OpenMP Quiz
 lmpcc にloginし，モンテカルロ法による円周率計算の例題プログラムを並列化し完成させよ．
-プログラムは /home/lecture/is/i416/omp_PIrep1.c に逐次版が用意してある．
+プログラムは /home/lecture/is/i416/omp_CYCLIC.c に逐次版が用意してある．
 
 モンテカルロ法による円周率計算の原理:
 
