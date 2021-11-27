@@ -1,21 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
 #ifdef _OPENMP
 #include <omp.h>
 #endif
-#include <stdio.h>
-#define N 16
+#define ITER (512*1024*1024)
 
-void main(){
-  int i, NumT, MyID[N];
+main(argc, argv )
+    int   argc;
+    char  *argv[];
+{
+        int numthreads, MyID;
+        int i, j, sum=0;
+        double x, y;
 
-  #pragma omp parallel
-  NumT = omp_get_num_threads();
-  printf( "Start omp parallel for¥n" );
-  #pragma omp parallel for schedule(static)
-  for( i = 0; i < N; i++ ){
-    MyID[i] = omp_get_thread_num();
+        #pragma omp parallel
+        numthreads = omp_get_num_threads();
+
+  for( i = 0; i < ITER; i++ ){
+    x = drand48();
+    y = drand48();
+    if(x*x+y*y < 1) sum++;
   }
-  for( i = 0; i < N; i++ ){
-    printf( "P: i=%2d, thread= %d/%d.\n",i, MyID[i], NumT );
-  }
-  printf( "Close parallel section\n" );
+
+  printf( "PI=%f¥n", 4.0*sum/ITER );
 }
