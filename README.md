@@ -10,6 +10,11 @@ gcc geeksforgeeks.c -o gfg
 Execute:
 ./gfg
 
+### Macでコンパイルする時
+
+clang -Xpreprocessor -fopenmp -lomp -I"$(brew --prefix libomp)/include" -L"$(brew --prefix libomp)/lib" ファイル名.c
+export OMP_NUM_THREADS=8
+
 ### VLIW Quiz 
 次の命令列を3演算器を持つVLIWシステムに最適化したい．命令列を最適となるように並び替えよ．
 また，同時実行される命令の組み合わせを示せ．条件分岐命令も一つの命令である．但し，トレースはif文を満たす命令列であると仮定する．命令列は先頭から開始される．

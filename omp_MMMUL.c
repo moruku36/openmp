@@ -15,7 +15,6 @@ void init_array(double m[N][N])
     }
 }
 
-
 void mul_array(double x[N][N], double y[N][N], double z[N][N])
 {
     double time = omp_get_wtime();
