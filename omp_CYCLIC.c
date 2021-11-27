@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>
@@ -15,7 +14,9 @@ double parallel_rng(unsigned long long* seed)
 
     *seed = random;
 
-    return ((double) random * 0x2545F4914F6CDD1DULL) / ((double) 0xFFFFFFFFFFFFFFFFULL);
+    const unsigned long long rand_modulo = 1000000;
+
+    return ((random * 0x2545F4914F6CDD1DULL) % rand_modulo) / ((double) rand_modulo);
 }
 
 int main(int argc, char* argv[])
@@ -24,6 +25,7 @@ int main(int argc, char* argv[])
     int sum = 0;
     int partial_sum;
     unsigned long long seed;
+    double time = omp_get_wtime();
 
 #pragma omp parallel private(partial_sum, seed)
     {
@@ -43,6 +45,7 @@ int main(int argc, char* argv[])
 #pragma omp for
         for(i = 0; i < ITER; ++i)
         {
+
             double x = parallel_rng(&seed);
             double y = parallel_rng(&seed);
 
@@ -58,5 +61,8 @@ int main(int argc, char* argv[])
         }
     }
 
+    time = omp_get_wtime() - time;
+
+    printf("elapsed time: %f sec\n", time);
     printf( "PI=%f¥n", 4.0*sum/ITER );
 }
