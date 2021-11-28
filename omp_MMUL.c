@@ -40,7 +40,6 @@ void mul_array(double x[N][N], double y[N][N], double z[N][N])
     printf("elapsed time: %f sec\n", time);
 }
 
-
 int main()
 {
     double x[N][N], y[N][N], z[N][N];
