@@ -64,5 +64,5 @@ int main(int argc, char* argv[])
     time = omp_get_wtime() - time;
 
     printf("elapsed time: %f sec\n", time);
-    printf( "PI=%f¥n", 4.0*sum/ITER );
+    printf( "PI=%f", 4.0*sum/ITER );
 }
