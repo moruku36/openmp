@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>
-
 #define ITER (512*1024*1024)
 
 double parallel_rng(unsigned long long* seed)

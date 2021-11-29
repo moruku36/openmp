@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>
-
 #define N 128
 
 void init_array(double m[N][N])
