@@ -17,6 +17,7 @@ void init_ary(double m[SIZE][SIZE]){
 }
 
 
+
 void mul_ary( m, x, y )         /*  M = X * Y  */
         double m[SIZE][SIZE], x[SIZE][SIZE], y[SIZE][SIZE];
 {
@@ -31,6 +32,8 @@ void mul_ary( m, x, y )         /*  M = X * Y  */
         }
     }
 }
+
+
 
 int main( int argc, char *argv[] ){
     int    MyID = 0, NumP;
